@@ -7,7 +7,7 @@ using Photon.Realtime;
 using System.Collections;
 
 
-namespace Com.DefaultCompany.Prototype
+namespace Com.DefaultCompany.Laby
 {
     /// <summary>
     /// Player name input field. Let the user input his name, will appear above the player in the game.

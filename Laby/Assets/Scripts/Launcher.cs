@@ -2,7 +2,7 @@
 using Photon.Pun;
 using Photon.Realtime;
 
-namespace Com.DefaultCompany.Prototype
+namespace Com.DefaultCompany.Laby
 {
     public class Launcher : MonoBehaviourPunCallbacks
     {
