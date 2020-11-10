@@ -37,9 +37,9 @@ namespace Photon.Pun.Demo.PunBasics
         [SerializeField]
         private GameObject playerUiPrefab;
 
-        [Tooltip("The Beams GameObject to control")]
+        /*[Tooltip("The Beams GameObject to control")]
         [SerializeField]
-        private GameObject beams;
+        private GameObject beams;*/
 
         //True, when the user is firing
         bool IsFiring;
@@ -53,14 +53,14 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         public void Awake()
         {
-            if (this.beams == null)
+           /* if (this.beams == null)
             {
                 Debug.LogError("<Color=Red><b>Missing</b></Color> Beams Reference.", this);
             }
             else
             {
                 this.beams.SetActive(false);
-            }
+            }*/
 
             // #Important
             // used in GameManager.cs: we keep track of the localPlayer instance to prevent instanciation when levels are synchronized
@@ -141,10 +141,10 @@ namespace Photon.Pun.Demo.PunBasics
                 }
             }
 
-            if (this.beams != null && this.IsFiring != this.beams.activeInHierarchy)
+           /* if (this.beams != null && this.IsFiring != this.beams.activeInHierarchy)
             {
                 this.beams.SetActive(this.IsFiring);
-            }
+            }*/
         }
 
         /// <summary>
